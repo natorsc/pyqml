@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Development;
+Comment=Graphical interface with Python and Kirigami.
+Exec=python3 app.py
+Icon={app_id}
+Name=PyQML
+Path={path}
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
