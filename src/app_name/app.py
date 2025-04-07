@@ -29,7 +29,7 @@ def main() -> None:
 
     loc = QtCore.QLocale.system()
     translator = QtCore.QTranslator(application)
-    if translator.load(QtCore.QLocale('en'), conf.APP_ID, '.', ':/locales'):
+    if translator.load(QtCore.QLocale(loc), conf.APP_ID, '.', ':/locales'):
         application.installTranslator(translator)
 
     if QtCore.QSysInfo.productType() == 'windows':
