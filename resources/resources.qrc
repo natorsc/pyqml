@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="icons">
-    <file alias="app">icons/com.github.natorsc.Pyqml.png</file>
+    <file alias="app.png">icons/com.github.natorsc.Pyqml.png</file>
   </qresource>
   <qresource prefix="locales">
     <file alias="com.github.natorsc.Pyqml.pt_BR.qm">locales/com.github.natorsc.Pyqml.pt_BR.qm</file>
